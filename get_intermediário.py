@@ -10,8 +10,8 @@ def buscar_dados_id(id):
     todo = json.loads(request.content)
     print(todo)
     # Retorna título do ID
-    print(todo['titulo'])
+    print(todo['nome'])
 
 
 
-buscar_dados_id("h7i39LVliST6r8kI")
+buscar_dados_id("IbJ6BzCktZKdsXbj")
